@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.logo{
+  display: flex;
+  font-weight: bold;
+  color: black;
+
+}
+.logo-icon{
+  font-size: 50px;
+
+}
+header {
+  background-color: white;
+  
+}
+
+nav.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 10px 0;
+}
+
+
+.myClass {
+  font-size: 24px;
+  color: black;
+  transition: 0.3s;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.myClass:hover {
+  color: #ffc107;
+  text-decoration: none;
+}
+
+
+ul li a {
+  color: black;
+  font-weight: 500;
+  text-decoration: none;
+  position: relative;
+  transition: 0.3s;
+}
+
+
+ul li a::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  bottom: -5px;
+  left: 0;
+  background-color: #ffc107;
+  transition: 0.3s;
+}
+
+ul li a:hover::after {
+  width: 100%;
+}
+
+ul li a:hover {
+  color: #ffc107;
+}
