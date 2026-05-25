@@ -3,10 +3,10 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Nav from "./components/Nav";
 import Footer from "./components/Footer";
 
-import Home from "./pages/Home.jsx";
-import Courses from "./pages/Courses.jsx";
-import About from "./pages/About.jsx";
-import Form from "./pages/Form.jsx";
+import Home from "./Pages/Home.jsx";
+import Courses from "./Pages/Courses.jsx";
+import About from "./Pages/About.jsx";
+import Form from "./Pages/Form.jsx";
 
 const App = () => {
   return (
