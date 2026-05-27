@@ -54,5 +54,4 @@ http://localhost:5173
 
 
 
-- pages/
-- assets
+
