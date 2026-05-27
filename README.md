@@ -1,16 +1,58 @@
-# React + Vite
+##  Project Description
+This project is a web-based educational platform built using React and Vite.  
+It allows users to browse courses, view information pages, and submit an application form.  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The system follows a component-based architecture to ensure reusability, scalability, and clean code structure.
 
-Currently, two official plugins are available:
+---
+## live website 
+https://my-first-app-nine-coral.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+##  Setup Instructions
 
-## React Compiler
+### 1. Clone the repository
+```bash
+git clone Rosa20-saaib/my-first-app: Website built using React and CSS
+```
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 2. Install dependencies
+```bash
+npm install
+```
 
-## Expanding the ESLint configuration
+### 3. Run the project
+```bash
+npm run dev
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 4. Open in browser
+Go to:
+```
+http://localhost:5173
+```
+
+---
+
+##  Technologies Used
+- React
+- Vite
+- Bootstrap
+- JavaScript (ES6)
+- HTML5
+- CSS3
+
+---
+
+## Project Structure
+- components/
+- pages/
+- assets/
+
+
+
+
+
+
+
+- pages/
+- assets
